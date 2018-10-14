@@ -19,6 +19,11 @@ defmodule KmsBack.MixProject do
   end
 
   defp deps do
-    []
+    [
+      {:cowboy, "~> 2.5"},
+      {:plug, "~> 1.6"},
+      {:poison, "~> 4.0"},
+      {:postgrex, "~> 0.13.5"}
+    ]
   end
 end
